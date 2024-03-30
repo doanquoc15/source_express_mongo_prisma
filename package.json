@@ -8,15 +8,6 @@
     "dev": "nodemon --exec ts-node src/index.ts",
     "start": "node src/index.js"
   },
-  "_moduleAliases": {
-    "@root": "./",
-    "@deep": "src/some/deep/directory/or/file",
-    "@my_module": "lib/some-file.js",
-    "something": "src"
-  },
-  "_moduleDirectories": [
-    "node_modules_custom"
-  ],
   "keywords": [],
   "author": "",
   "license": "ISC",

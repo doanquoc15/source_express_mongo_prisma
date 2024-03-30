@@ -1,5 +1,5 @@
 import jsonwebtoken from "jsonwebtoken";
-import responseHandler from "../handlers/response.handler";
+import responseHandler from "@/handlers/response.handler";
 
 const tokenMiddleware = (allowedRoles: any) => {
   return (req: any, res: any, next: any) => {
